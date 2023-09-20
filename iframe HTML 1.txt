@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<link href="https://res.cloudinary.com/punchh/image/upload/v1/static/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="style.css" media="screen" rel="stylesheet"/>
+</head>
+<body class="contrast-red">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-md-4 col-md-offset-4">
+<img alt="Bolay Logo" class="bolay-logo" src="https://www.dropbox.com/scl/fi/i4th1rvjapkr6nkjrov18/Bolay_Official_Logo_Vertical_RGB.png?rlkey=ugrafe8dgn7r54lko2gkrh2su&amp;dl=0"/>
+<div class="welcome-message" style="text-align: center; margin-top: 2rem;">Welcome To Bolay! Sign In To Use Your Loyalty Rewards.</div>
+<h1 class="text-center login-title">Sign in to continue to Bolay Restaurants</h1>
+<div class="account-wall">
+<img class="profile-img" height="150" src="https://res.cloudinary.com/punchh/image/upload/c_limit,f_auto,fl_lossy,g_center,q_auto/v1/punchhstatic/businesses/logos/000/000/836/original/a2a0c27a3516546c86290645c4d146f50cd06b0b.png" width="150"/>
+<form accept-charset="UTF-8" action="/customers/sign_in.iframe" class="new_user form-signin" id="user-form" method="post">
+<input name="utf8" type="hidden" value="✓"/>
+<input name="authenticity_token" type="hidden" value="cLQ+TLgjhjhdFXhImBbEHeZFygGJL13z6jD9ZXEyDCa2dDw1Cv4og4vUUNnNLSArxHBYWRT/c7421cPEto2cRg=="/>
+<input autofocus="autofocus" class="form-control" id="user_email" name="user[email]" placeholder="Email" required="required" type="email" value=""/>
+<input class="form-control" id="user_password" name="user[password]" placeholder="Password" require="true" type="password"/>
+<div class="g-recaptcha" data-callback="submitInvisibleRecaptchaForm" data-formselector="form #invisible-recaptcha" data-sitekey="6LfHvSEUAAAAAHuEo7FF0LB8WTgHEtujhS7C6daR" data-size="invisible" data-submit_element="user-form"></div>
+<button class="btn btn-lg btn-primary btn-block" data-contrast="red" id="invisible-recaptcha" type="submit">
+                        Login
+                    </button>
+<a class="pull-right need-help" href="/customers/password/new.iframe?slug=BolayRestaurants">Forgot
+                        Password?</a>
+<span class="clearfix"></span>
+<div class="facebook-login-div">
+<span class="facebook-label text-center">OR</span>
+<span class="facebook-link">
+<a class="popup btn btn-lg btn-primary btn-block connect-facebook" data-height="600" data-width="800" href="/customers/auth/facebook?slug=BolayRestaurants">Sign In with Facebook</a>
+</span>
+</div>
+<span class="clearfix"></span>
+</form>
+</div>
+<a class="text-center new-account" href="/customers/sign_up.iframe?slug=BolayRestaurants&amp;sso=1" style="display: block; margin-top: 1rem;">Create
+                an account</a>
+</div>
+</div>
+</div>
+</body>
+</html>
